@@ -1,0 +1,16 @@
+<h2>Winners</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let winner of winners$ | async">
+      <td>{{ winner.name }}</td>
+      <td>{{ winner.score }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-header-cell,
+  .mat-cell {
+    padding: 8px 16px;
+  }
+  
+  .mat-header-row,
+  .mat-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  
+  .mat-header-cell {
+    font-weight: bold;
+  }
+  
+  .mat-row {
+    cursor: pointer;
+  }
+  
+  button {
+    margin-top: 16px;
+  }
+  

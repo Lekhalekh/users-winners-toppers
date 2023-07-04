@@ -1,0 +1,5 @@
+<h2>Toppers</h2>
+
+<ul>
+  <li *ngFor="let topper of toppers$ | async">{{ topper.name }} - Score: {{ topper.score }}</li>
+</ul>
